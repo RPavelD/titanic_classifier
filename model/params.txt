@@ -1,1 +1,1 @@
-{'bagging_temperature': 0.5, 'eval_metric': 'Accuracy', 'verbose': False, 'use_best_model': True, 'random_seed': 42, 'l2_leaf_reg': 0.1, 'learning_rate': 0.0005, 'iterations': 6000}
+{'bagging_temperature': 0.0, 'eval_metric': 'Accuracy', 'verbose': False, 'use_best_model': True, 'random_seed': 421, 'l2_leaf_reg': 0.01, 'depth': 5, 'learning_rate': 0.0001, 'iterations': 15000}

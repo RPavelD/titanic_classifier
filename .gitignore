@@ -3,4 +3,3 @@ data/
 test/
 catboost_info/
 gender_submission.csv
-.gitignore

@@ -1,6 +1,8 @@
 import re 
 
 class Test:
+    """Класс реализует тесты для проверки ответов машины состояний"""
+    
     def __init__(
             self,
             int_test=False,
@@ -12,9 +14,10 @@ class Test:
             valid_text_test=False,
             regex_for_valid_text: str =None
         ):
-        
+        # Хранилище выбранных тестов
         self.__tests = []
-        
+
+        # инициализация тестов
         if int_test:
             self.__tests.append(self.__int_test)
             
@@ -44,7 +47,9 @@ class Test:
             self.__tests.append(self.__valid_text_test)
             
             
-    def __call__(self, x):        
+    # объект класса работает как функтор
+    def __call__(self, x):
+        # проверяется каждый тест
         for test in self.__tests:
             msg_check, x_is_nice = test(x)
             
@@ -54,7 +59,7 @@ class Test:
             
         return None, True
 
-
+    # сами тесты
     def __int_test(self, x):
         try:
             int(x)
@@ -223,7 +228,7 @@ class MachineStates:
         else:
             return reaction, False
         
-        
+    # через этот метод объект отдает накопленные ответы
     def get_answer(self):
         return self.__answers
 

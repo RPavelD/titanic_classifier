@@ -20,9 +20,13 @@
 ### Особенности:
 - Реализован подпроект, создающий машину состояний для последователности вопросов-ответов.
     > ./use_model/machine_state.py
+    
+- Возможно возвращаться на предыдущий вопрос
+    > ![alt text](https://github.com/RPavelD/titanic_classifier/blob/master/info/last_state.png)
+    
 
 ### Недостатки:
-1. Не объясняется, при использовании модели, какой ожидается ввод.
+1. Не объясняется или плохо объясняется при использовании модели, какой ожидается ввод.
     > Однако, отлов ошибок ведется
     > 
-    > 
+    > ![alt text](https://github.com/RPavelD/titanic_classifier/blob/master/info/error_filter.png)

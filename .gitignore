@@ -3,3 +3,5 @@ data/
 test/
 catboost_info/
 gender_submission.csv
+TOKEN.txt
+__pycache__

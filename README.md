@@ -1,7 +1,8 @@
 ### Каков шанс, что Вы бы выжили на титанике?
 
 #### При помощи телеграмм бота можно узнать!   
-> (бот не активен)
+> (сейчас бот не активен. Включается по запросу.)
+> 
 > ![alt text](https://github.com/RPavelD/titanic_classifier/blob/master/info/dialog1.png)
 > ![alt text](https://github.com/RPavelD/titanic_classifier/blob/master/info/dialog2.png)
 

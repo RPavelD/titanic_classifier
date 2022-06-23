@@ -2,6 +2,8 @@
 
 #### При помощи телеграмм бота можно узнать!   
 > (бот не активен)
+> ![alt text](https://github.com/RPavelD/titanic_classifier/blob/master/info/dialog1.png)
+> ![alt text](https://github.com/RPavelD/titanic_classifier/blob/master/info/dialog2.png)
 
 ### Проект:
 - Обучена модель градиентного бустинга над решающими деревьями для бинарной классификации признака "Survived".
